@@ -1,3 +1,4 @@
+import tensorflow as tf
 class CustomModel(tf.Module):
 
     def __init__(self, input_features):
